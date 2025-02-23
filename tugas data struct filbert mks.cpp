@@ -156,11 +156,11 @@ void delete_mid(int value){
 	//ada isi
 	if(value == head->x)
 	{
-		delete_head();
+		delete_front();
 	}
 	else if(value == tail->x)
 	{
-		delete_tail();
+		delete_back();
 	}
 	else
 	{ //value ada di mid -> pop mid
